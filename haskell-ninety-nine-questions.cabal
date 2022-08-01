@@ -26,6 +26,7 @@ source-repository head
 library
   exposed-modules:
       Lib
+      ProblemOne
       StrAdd
   other-modules:
       Paths_haskell_ninety_nine_questions
@@ -51,6 +52,7 @@ test-suite haskell-ninety-nine-questions-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
+      ProblemOneTest
       StrAddTest
       Paths_haskell_ninety_nine_questions
   hs-source-dirs:

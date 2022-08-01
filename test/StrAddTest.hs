@@ -1,6 +1,6 @@
 module StrAddTest where
 
-import StrAdd
+import StrAdd ( isAllDigits )
 import Data.Char
 
 prop_isAllDigit :: String -> Bool
